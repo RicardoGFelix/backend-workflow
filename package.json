@@ -4,13 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node src/index.js"
+    "start": "node src/index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "amqplib": "^0.7.1",
     "cors": "^2.8.5",
     "express": "^4.17.1",
+    "json-2-csv": "^3.10.3",
+    "json2csv": "^5.0.6",
     "knex": "^0.95.4",
     "sqlite3": "^5.0.2"
   }
