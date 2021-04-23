@@ -22,6 +22,7 @@ password: guest
 npm install express
 npm install cors
 npm install knex sqlite3
+npm install amqplib
 npm install --save-dev jest
 npm install supertest --save-dev
 
